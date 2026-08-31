@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+streamlit
+playwright
+beautifulsoup4
+langchain
+langchain-community
+chromadb
+pandas
+httpx
+python-dotenv
+greenlet
+fake-useragent
+plotly

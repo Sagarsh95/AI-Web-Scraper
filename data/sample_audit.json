@@ -1,0 +1,44 @@
+[
+    {
+        "timestamp": "2026-01-01 10:00:01",
+        "level": "INFO",
+        "source": "Orchestrator",
+        "message": "Mission Started: Deep Crawl [stealth: active]"
+    },
+    {
+        "timestamp": "2026-01-01 10:00:05",
+        "level": "INFO",
+        "source": "Scraper",
+        "message": "Navigating to https://example.com/products"
+    },
+    {
+        "timestamp": "2026-01-01 10:00:12",
+        "level": "WARNING",
+        "source": "Anti-Bot",
+        "message": "Captcha detected. Solving..."
+    },
+    {
+        "timestamp": "2026-01-01 10:00:15",
+        "level": "INFO",
+        "source": "Scraper",
+        "message": "Page loaded. Extracting 15 products."
+    },
+    {
+        "timestamp": "2026-01-01 10:00:20",
+        "level": "INFO",
+        "source": "ContentCleaner",
+        "message": "Cleaned HTML. Tokens: 4500."
+    },
+    {
+        "timestamp": "2026-01-01 10:00:22",
+        "level": "INFO",
+        "source": "VectorDB",
+        "message": "Indexed 3 documents with IDs: [doc_123, doc_124, doc_125]"
+    },
+    {
+        "timestamp": "2026-01-01 10:00:25",
+        "level": "INFO",
+        "source": "AI-Agent",
+        "message": "Analysis complete. Sustainability Score: 85/100."
+    }
+]
